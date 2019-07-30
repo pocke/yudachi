@@ -1,6 +1,9 @@
 require "yudachi/version"
+require 'yudachi/cli'
+require 'yudachi/client'
+require 'yudachi/runner'
+require 'yudachi/slack_notifier'
 
 module Yudachi
-  class Error < StandardError; end
-  # Your code goes here...
+  RAINFALL_THRESHOLD = 0.1
 end

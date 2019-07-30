@@ -1,0 +1,5 @@
+#!ruby
+
+require 'yudachi'
+
+Yudachi::CLI.new.run
