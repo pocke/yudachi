@@ -16,7 +16,7 @@ module Yudachi
     end
 
     def rainfall(geometry)
-      url = "https://map.yahooapis.jp/weather/V1/place\?appid\=#{@app_id}\&output=json&coordinates\=#{geometry}&past=1&interval=5"
+      url = "https://map.yahooapis.jp/weather/V1/place?appid=#{@app_id}&output=json&coordinates=#{geometry}&past=1&interval=5"
       response = get url
       features = response["Feature"]
 
